@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, iniatial-scale=1.0">
+        <title>Music Instruments</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">CATEGORY</a></li>
+                    <li><a href="blog.html">SERVICES</a></li>
+                     <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+
+         <div class="text-box">
+            <h1>CATEGORIES</h1>
+            
+            
+         </div>
+     </section>
+
+
+     <!------ITEMS------->
+
+     <section class="Items">
+        <h1>ITEMS</h1><br>
+        
+
+<section  id="product1" class="section-p1">
+<div class="c1">
+<span>KEYBOARDS & PIANOS</span>
+</div>
+<div class="pro-category">
+    <div class="pro">
+        <img src="images/Yamaha-CP73-Stage.jpg" alt="gitar">
+        <div class="des">
+            <h3>Yamaha CP73 Stage</h3>
+            <h4><br><br>Rs.345,000</h4>
+        </div>
+    </div>
+
+
+    <div class="pro">
+        <img src="images/Yamaha-CP-88-Stage.jpg" alt="drum">
+        <div class="des">
+            <h3>Yamaha CP 88 Stage</h3>
+            <h4><br><br>Rs.355,000</h4>
+        </div>
+    </div>
+
+
+    <div class="pro">
+        <img src="images/Yamaha-CVP701B.jpg" alt="piano">
+        <div class="des">
+            <h3>Yamaha CVP701B</h3>
+            <h4><br><br>Rs.875,000</h4>
+        </div>
+    </div>
+
+
+    <div class="pro">
+        <img src="images/Yamaha-PSRE273-Portable-Keyboard.jpg" alt="studio">
+        <div class="des">
+            <h3>Yamaha PSRE273 Portable</h3>
+            <h4><br>Rs.585,000</h4>
+        </div>
+    </div>
+
+    <div class="pro">
+        <img src="images/Yamaha-PSR-I400-Portable-Keyboard.jpg" alt="drum">
+        <div class="des">
+            <h3>Yamaha PSR I400 Portable</h3>
+            <h4><br>Rs.568,000</h4>
+        </div>
+    </div>
+
+</section>
+
+
+
+     <!-------Footer-------->
+
+     <footer class="section-p1">
+        <diiv class="foot">
+            <img class="logo" src="images/logo2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 17 CWW Kannangara Mawathe, Colombo 07, Colombo, Western Province.</p>
+            <p><strong>Phone:</strong> 011-1531531/077-7531531</p>
+            <div class="follow">
+                <h4>Follow</h4>
+                <div class="icon">
+                   <i><img src="images/fb.png" alt="fb"></i>
+                   <i><img src="images/inster.png" alt="fb"></i>
+                    <i><img src="images/wapp.png" alt="fb"></i>
+                    <i><img src="images/youtube.png" alt="fb"></i>
+                </div>
+            </div>
+        </diiv>
+
+       
+ 
+
+        <div class="foot-in">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="app">
+                <img src="images/as.png" alt="app store">
+                <img src="images/gp.png" alt="app store">
+            </div>
+            <p>Secured Payment Getway</p>
+            <img src="images/visa.png" alt="">
+            <img src="images/master.png" alt="">
+            <img src="images/paypal.png" alt="">
+            <img src="images/bank.png" alt="">
+        </div>
+
+        <div class="copy-right">
+            <p>Copyright © 2022 Melodies Music. All rights reserved. Crafted by UOR Technology</p>
+        </div>
+    </footer>
+
+
+
+     <!------JavaScript for Toggle Menu -------->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+     </script>
+</body>
+
+
+
+</html>

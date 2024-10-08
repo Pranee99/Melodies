@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, iniatial-scale=1.0">
+        <title>Music Instruments</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="category.html">CATEGORY</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                     <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+
+        
+            <h1> CONTACT</h1>
+          
+            
+         </div>
+     </section>
+
+     <!-------Contact Us-------->
+
+     <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126670.33587714162!2d79.78821204802625!3d7
+        .189613454005651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2ee9c6bb2f73b%3A0xa51626e908186f3e!2sNegombo!
+        5e0!3m2!1sen!2slk!4v1668534531931!5m2!1sen!2slk" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="
+        no-referrer-when-downgrade"></iframe> 
+     </section>
+
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ ROAD, ABC Building</h5>
+                        <p>Katuwapitiya, Negombo, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+94774487984</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@kpg.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email adress" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Massage</button>
+                </form>
+            </div>
+        </div>
+     </section>
+
+
+    
+
+
+     <!-------Footer-------->
+
+     <footer class="section-p1">
+        <diiv class="foot">
+            <img class="logo" src="images/logo2.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 17 CWW Kannangara Mawathe, Colombo 07, Colombo, Western Province.</p>
+            <p><strong>Phone:</strong> 011-1531531/077-7531531</p>
+            <div class="follow">
+                <h4>Follow</h4>
+                <div class="icon">
+                   <i><img src="images/fb.png" alt="fb"></i>
+                   <i><img src="images/inster.png" alt="fb"></i>
+                    <i><img src="images/wapp.png" alt="fb"></i>
+                    <i><img src="images/youtube.png" alt="fb"></i>
+                </div>
+            </div>
+        </diiv>
+
+       
+ 
+
+        <div class="foot-in">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="app">
+                <img src="images/as.png" alt="app store">
+                <img src="images/gp.png" alt="app store">
+            </div>
+            <p>Secured Payment Getway</p>
+            <img src="images/visa.png" alt="">
+            <img src="images/master.png" alt="">
+            <img src="images/paypal.png" alt="">
+            <img src="images/bank.png" alt="">
+        </div>
+
+        <div class="copy-right">
+            <p>Copyright © 2022 Melodies Music. All rights reserved. Crafted by UOR Technology</p>
+        </div>
+    </footer>
+
+
+
+     <!------JavaScript for Toggle Menu -------->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+     </script>
+</body>
+
+
+
+</html>
